@@ -1,0 +1,35 @@
+body{
+    font-family:'Courier New', Courier, monospace
+}
+
+.title{
+    font-weight: 700;
+}
+
+.direction{
+}
+
+.speaker{
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    text-align: center;
+}
+
+.note{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    text-align: center;
+
+}
+.quote{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+.conversation{
+    padding: 1em 5em;
+}
