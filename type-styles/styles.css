@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+
+body{
+    font-family: 'Crimson Text', serif;
+    max-width: 64em;
+    padding: 3em;
+    margin: auto;
+}
+
+#font-weight{
+    font-weight: 600;
+}
+
+#font-style{
+    font-style: italic;
+}
+
+#letter-spacing{
+    letter-spacing: 0.25em;
+}
+
+#text-transform{
+    text-transform: capitalize;
+}
+
+#text-decoration{
+    text-decoration: underline;
+}
+
+h3{
+    color: orange;
+    flex-grow: 4;
+}
+p{
+    flex-grow: 4;
+}
+
+.container{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 45%;
+    text-align: center;
+    border: solid 2px black;
+    margin: 1em;
+    border-radius: 0.75em;
+    transition: 300ms linear; 
+}
+
+.container:hover{
+    /* filter: drop-shadow(30px 10px 4px #4444dd); */
+    transform: scale(1.075) translatex(-2.5%) translatey(-2.5%);
+
+}
+
+.supercontainer{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
