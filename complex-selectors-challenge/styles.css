@@ -56,7 +56,7 @@ a>div:last-child{
     content: "*"
 }
 
-#game-of-thrones>.seasons>ul:after{
+#game-of-thrones>.seasons:after{
     content: "\a * Final Season";
     font-size: 0.7rem;
     color: #999;
