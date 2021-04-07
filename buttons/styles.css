@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=IBM+Plex+Mono:wght@700&family=Lora&family=Marcellus&family=Noto+Sans+JP:wght@300&family=Righteous&family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.circular-logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+a#btn_micheal-kors{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+    color:black;
+    text-decoration: none;
+    background-color: goldenrod;
+    padding-top: 25px;
+    letter-spacing: -7px;
+    font-weight: 800;
+}
+
+a#btn_st-jude{
+    background-color: #bf1238;
+    font-size: 15px;
+    padding-top: 10px;
+    font-family: 'Lora', serif;
+}
+a#btn_instagram {
+    background-color: #fff;
+    color: black;
+}
+
+a#btn_instagram:hover span {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+a#btn_coke {
+    background-color: #f40000;
+    color: #fff;
+    font-family: "Lobster", cursive;
+    font-size: 22px;
+    padding: 30px 0;
+}
+
+a#btn_coke:hover {
+    background-color: #3c3024;
+    color: #f40000;
+}
+
+a#btn_amazon {
+    background-color: #232f3e;
+    color: #fff;
+}
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_apple {
+    background-color: #232f3e;
+    color: #fff;
+}
+
+a#btn_apple:hover {
+    display: block;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    background: linear-gradient(
+        to bottom,
+        rgba(108, 209, 0, 1) 0%,
+        rgba(108, 209, 0, 1) 0%,
+        rgba(108, 209, 0, 1) 14%,
+        rgba(108, 209, 0, 1) 15%,
+        rgba(229, 195, 0, 1) 15%,
+        rgba(249, 224, 0, 1) 15%,
+        rgba(255, 216, 0, 1) 30%,
+        rgba(121, 155, 200, 1) 30%,
+        rgba(121, 155, 200, 1) 30%,
+        rgba(249, 120, 0, 1) 30%,
+        rgba(252, 126, 0, 1) 30%,
+        rgba(249, 120, 0, 1) 47%,
+        rgba(255, 2, 2, 1) 47%,
+        rgba(249, 0, 0, 1) 64%,
+        rgba(141, 28, 255, 1) 64%,
+        rgba(140, 0, 255, 1) 81%,
+        rgba(2, 162, 237, 1) 81%,
+        rgba(0, 172, 252, 1) 100%
+    );
+    color: black;
+}
+
+a#btn_facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+a#btn_facebook:hover {
+    width: 125px;
+    height: 125px;
+    border-radius: 63px;
+    font-size: 75px;
+    transform: translate(0,-10%);
+}
+a#btn_fitbit {
+    background-color: #00b0b9;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+    padding-top: 15px;
+}
+a#btn_fitbit:hover {
+    width: 125px;
+    height: 125px;
+    border-radius: 63px;
+    font-size: 35px;
+    transform: translate(0,-10%);
+}
+
+
+.pill-logo {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a#btn_samsung {
+    text-decoration: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color:black;
+    box-sizing: border-box;
+    border-radius: 30px;
+   
+}
+
+a#btn_samsung:hover{
+    background-color: black;
+    color:white
+}
+a#btn_moo {
+    background-color: green;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a#btn_spotify {
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_lyft {
+    padding: 5px 40px 5px 40px;
+    background-color: #ff00bf;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Righteous", cursive;
+}
+
+a#btn_lyft:hover #lyft {
+    display: block;
+    font-size: 45px;
+    transform: translate(0, -20%);
+    transition: all 0.25s;
+}
+
+.text-logo {
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    margin-top: 90px;
+}
+
+a#btn_exploding-kittens{
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    background-color: rgb(163, 36, 19);
+}
+
+a#btn_nike {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    color: black;
+}
+
+a#btn_nike:hover {
+    font-style: italic;
+    transition: all 0.15s;
+}
+
+a#btn_mis-bot-garden {
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    color: green;
+    font-size: 18px;
+    font-family: "Marcellus", serif;
+    font-weight: bold;
+}
+
+a#btn_new-yorker {
+    font-family: "Marcellus", serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    color: black;
+}
+
+a#btn_new-yorker:hover {
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+}
+
+a#btn_mis-bot-garden:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    transition: all 0.15s;
+}
+
+a#btn_npr span {
+    margin: auto;
+    margin-top: 105px;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+}
+
+a#btn_npr:hover span {
+    width: 55px;
+    height: 55px;
+    transform: translate(25%, 20%);
+    font-size: 40px;
+    transition: all 0.25s;
+}
+
+.blue {
+    background-color: #4c85c5;
+}
+
+.red {
+    background-color: #f15b1c;
+}
+
+.black {
+    background-color: black;
+}
+
+.box-logo {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    text-decoration: none;
+}
+
+a#btn_old-navy{
+    background: #163E69;
+    color: white;
+    font-size: 40px;
+    font-family:'IBM Plex Mono', sans-serif;
+    height: 150px;
+    width: 150px;
+    padding-top: 25px;
+}
+
+a#btn_color-run{
+    border: 2px black solid;
+    color: black;
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    height: 150px;
+    width: 150px;
+    text-transform: uppercase;
+}
+
+a#btn_color-run:hover{
+    background: linear-gradient(to top, orange , yellow, violet);
+}
+
+a#btn_cartoon-network span {
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    font-family: 'Dela Gothic One', cursive;
+
+}
+
+
+.white {
+    color:black !important;
+    background-color: white;
+}
+
+a#btn_ibm {
+    padding: 25px 15px 45px 12px;
+    color: white;
+    font-size: 40px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    background-color: #052fad;
+}
+
+a#btn_ibm:hover span {
+    background: repeating-linear-gradient(0deg, #1343e3, #1343e3 2px, #fff 2px, #fff 4px);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+a#btn_ideo {
+    padding: 25px 5px;
+    color: black;
+    font-size: 35px;
+    font-family: "Courier", monospace;
+    font-weight: bold;
+    background-color: white;
+    border: 2px black solid;
+}
+
+a#btn_ideo:hover {
+    background-image: linear-gradient(180deg, transparent 65%, #fcf113 0);
+    transition: all 0.25s;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46, 191, 236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(46, 191, 236, 1) 0%, rgba(40, 165, 203, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        -45deg,
+        rgba(46, 191, 236, 1) 0%,
+        rgba(40, 165, 203, 1) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        135deg,
+        rgba(46, 191, 236, 1) 0%,
+        rgba(40, 165, 203, 1) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all 0.2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all 0.5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}

@@ -41,6 +41,7 @@ body {
     background-color: #cc0000;
     box-shadow: 0 0 8px #ff0000;
 }
+
 .launch-button:hover .rocket {
     transform: scale(1.3);
 }
