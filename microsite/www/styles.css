@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    max-width: 90em;
+    margin: auto;
+    background-color: #F9F8F8;
+    font-family: 'Anton', sans-serif;
+}
+
+.division{
+    margin: auto;
+    overflow: hidden;
+}
+
+.qualifier{
+    color: #FFC72C;
+}
+
+.sidenav{
+    position:sticky;
+    top: 0em;
+    height: 4em;
+    background: #1D428A;
+    z-index: 10;
+}
+
+.achievement{
+    font-size: 1.05em;
+    padding-left: 0.5em;
+    text-transform: uppercase;
+}
+
+@media (min-width: 640px){
+
+    .achievement{
+        font-size: 5em;
+        margin-left: 1em;
+    }
+}
+/* hero */
+
+.divider{
+    background-color: #FFC72C;
+    color: #FFC72C;
+    height: 5px;
+}
+
+.hero{
+    max-width: 160%;
+}
+
+.hero-container{
+    position: relative;
+}
+
+.hero-subcallout{
+    color: #1D428A;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero-callout{
+    position: absolute;
+    top: 2em;
+    left: 0.5em;
+    margin: auto;
+    display:inline;
+    color: white;
+    text-transform: uppercase;
+}
+
+.hero-accomplishment{
+    font-size: 1.05em;
+}
+
+.hero-title{
+    font-size: 1.5em;
+}
+
+@media (min-width: 640px){
+
+    .hero-title{
+        font-size: 5.5em;
+    }
+
+    .hero{
+        margin-right: 40em;
+    }
+
+    .hero-accomplishment{
+        font-size: 4.5rem;
+        margin: 1.5em 0;
+    }
+
+    .hero-callout{
+        position: absolute;
+        top: 4em;
+        left: 5em;
+        margin: auto;
+        display:inline;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+/* greatest shooter  */
+
+.tagline{
+    font-size: 2em;
+    margin: 0.5em 0.5em;
+}
+
+.right-third{
+    width: 100%
+}
+
+.column-container{
+    margin: 2em 0;
+}
+
+@media (min-width: 640px){
+    .tagline{
+        max-width: 45%;
+        font-size: 5em;
+        margin-left: 1em;
+    }
+    
+    .column-container{
+        display: flex;
+        margin: 2em 0;
+    }
+
+    .right-third{
+        height: 75%;
+    }
+
+}
+
+/* mvp */
+
+.full-width{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.half-width{
+    max-width: 50%;
+}
+
+.two-column-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.undecorated{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+@media (min-width: 640px){
+    .undecorated{
+        font-size: 5em;
+    }
+    
+}
