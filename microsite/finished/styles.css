@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+SC&display=swap");
+body {
+    max-width: 90em;
+    min-width: 320px;
+    margin: auto;
+    background-color: #26282a;
+    font-family: "Anton", sans-serif;
+    color: white;
+}
+@media (max-width: 640px) {
+    img {
+        max-width: 100%;
+    }
+}
+.division {
+    margin: auto;
+    overflow: hidden;
+}
+
+.qualifier {
+    color: #ffc72c;
+    font-size: 5vw;
+}
+
+.achievement {
+    font-size: 4vw;
+    padding-left: 0.5em;
+    text-transform: uppercase;
+}
+
+/* nav */
+
+.sidenav {
+    position: sticky;
+    top: 0;
+    background: #1d428a;
+    z-index: 10;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.home-image {
+    max-width: 25vw;
+}
+
+.sidenav-container {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 3.5vw;
+}
+
+@media (min-width: 1200px) {
+    .home-image {
+        max-width: 12.5vw;
+    }
+}
+
+/* hero */
+
+.divider {
+    background-color: #1d428a;
+    color: #1d428a;
+    height: 5px;
+    border: 1px solid #1d428a;
+}
+
+.hero {
+    max-width: 160%;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero-subcallout {
+    color: #ffc72c;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero-callout {
+    position: absolute;
+    left: 0.5em;
+    margin: 0.5em auto;
+    display: inline;
+    color: white;
+    text-transform: uppercase;
+    max-width: 65%;
+}
+
+.hero-accomplishment {
+    font-size: 7vw;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 9vw;
+}
+
+@media (min-width: 1200px) {
+    .hero-title {
+        font-size: 5.5em;
+    }
+
+    .hero {
+        margin-right: 40em;
+    }
+
+    .hero-accomplishment {
+        font-size: 4.5rem;
+        margin: 1.5em 0;
+    }
+
+    .hero-callout {
+        position: absolute;
+        top: 4em;
+        left: 5em;
+        margin: auto;
+        display: inline;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+/* greatest shooter  */
+
+.tagline {
+    font-size: 7vw;
+    margin: 0;
+}
+
+.tagline .qualifier {
+    font-size: 7vw;
+}
+
+.right-third {
+    width: 100%;
+}
+
+.column-container {
+    padding: 5vw;
+    margin: 2em 0;
+}
+
+.no-bottom {
+    margin-bottom: 0;
+}
+
+@media (min-width: 740px) {
+    .tagline {
+        max-width: 45%;
+        font-size: 5em;
+    }
+
+    .column-container {
+        display: flex;
+        margin: 2em 0;
+        padding: 0 5vw;
+    }
+
+    .right-third {
+        height: 75%;
+    }
+}
+
+/* mvp */
+
+.full-width {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.half-width {
+    max-width: 50%;
+}
+
+.two-column-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.undecorated {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+@media (min-width: 1200px) {
+    .undecorated {
+        font-size: 5em;
+        padding-inline-start: 40px;
+    }
+}
+
+/* copy */
+
+.copy {
+    margin: 0 20px;
+    font-family: "Noto Sans SC", sans-serif;
+}
+
+.copy .section-header {
+    margin-top: 0;
+    color: #ffc72c;
+    text-transform: uppercase;
+    font-family: "Anton", sans-serif;
+}
+
+.first-paragraph {
+    margin-top: 0;
+}
+
+.legacy-shot {
+    max-width: 440px;
+}
+
+.text-description {
+    display: flex;
+}
+
+.text-description p {
+    flex-grow: 1;
+    width: 0;
+}
+
+.image-container {
+    display: inline-block;
+}
