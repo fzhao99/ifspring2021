@@ -17,6 +17,17 @@ body {
     overflow: hidden;
 }
 
+.naked-link{
+    text-decoration: none;
+    color: white;
+}
+
+.naked-link:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
 .qualifier {
     color: #ffc72c;
     font-size: 5vw;
@@ -192,12 +203,16 @@ body {
 
 .undecorated {
     list-style: none;
+    padding: 0;
+}
+
+.two-column-container .undecorated {
     text-transform: uppercase;
     padding: 0;
 }
 
 @media (min-width: 1200px) {
-    .undecorated {
+    .two-column-container .undecorated {
         font-size: 5em;
         padding-inline-start: 40px;
     }
@@ -236,4 +251,12 @@ body {
 
 .image-container {
     display: inline-block;
+}
+
+.footer{
+    padding: 15px 
+}
+
+.footer .section-header {
+    color: #ffc72c
 }
